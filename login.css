@@ -1,0 +1,28 @@
+
+body{
+	background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url("https://images.thequint.com/thequint%2F2021-03%2Fac013f73-a42d-41e5-ade0-f0b8df3d1c36%2FUntitled_design__14_.jpg");
+		background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.login-box{
+	max-width: 700px;
+	float: none;
+	margin: 150px auto;
+}
+.login-left{
+	background: #fff;
+	padding: 30px;
+}
+.login-right{
+	
+	background:rgba(211, 211, 211, .5);
+	padding: 30px;
+}
+.form-control{
+	background-color: transparent !important: ;
+}
+
+
+
+

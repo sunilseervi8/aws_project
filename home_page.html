@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home_page</title>
+	<link rel="stylesheet" type="text/css" href="Home_page.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!--icons-->
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+
+	
+	</head>
+<body>
+	<nav class="main_nav">
+		<div class="logo fa fa-home">MyVote<sub>It's Here</sub></div>
+	    <ul class="ul_links">	  
+	    <li class="ul1"><a href="https://eci.gov.in/"><h5><img src="data:image/png;base64,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"height='30px'>Election Commission of India</h5></a></li>
+
+	</ul>
+	<br>
+	
+
+	
+	</nav>
+
+<nav class="nav_home" >
+			<ul  class="category">
+				<li class="logo1 fas fa-graduation-cap">Article's</li>
+				<li><a href="https://www.loc.gov/collections/civil-rights-history-project/articles-and-essays/voting-rights/"class="fas fa-book-reader ">Voting Right's</a></li>
+				
+				<li><a href="https://www.bankbazaar.com/voter-id/why-should-we-vote-in-india.html" class="fas fa-award ">Why Should We Vote</a></li>
+				<li><a href="https://en.wikipedia.org/wiki/List_of_political_parties_in_India"class="fa fa-edit">Political Parties</a></li>
+				<li><a href="https://en.wikipedia.org/wiki/Elections_in_India"class="fas fa-file-powerpoint">Election Related</a></li>
+				<li><a href="practice.html"class="fa fa fas fa-dove">Contact</a></li>
+			    <li><a href="#" class="fas fa-grip-vertical">Coming soon</a></li>
+</ul>
+</nav>
+			<!--  <div>
+			  	     
+                     <div class="const">Constituency:-Bangalore North</div>
+                     <div><h5 class="narendra">Narendra Modi</h5 ><h5 class="rahul">Rahul Gandhi</h5></div>
+                     <div class="b1_2">
+                     	<button class="button1"></button>
+                        <button class="button2"></button>
+                    </div>
+                    <div class="b3_4">
+                      	<button class="button3"></button>
+                        <button class="button4"></button>
+                    </div>
+
+			     </div>
+			    -->
+			          <div class="const"><span id="const_const">CONSTITUENCY:-</span ><select class="const_const"><option>Bangalore North</option>
+                                         <option>Bangalore South</option>
+                                         <option></option>
+                                         <option></option>
+                                         <option></option>
+                                         <option></option>
+                                         <option></option>
+                                         <option></option></select>
+			          </div>
+			  	   <table style="width:100%">
+                        <tr>
+                           <td><div class="B1">DV Sadananda Gowda</div><button class="button1" onclick="myFunction()"></button></td>
+                           <td><div class="B2">Krishna Byre Gowda</div><button class="button2"></button></td>
+   
+                         </tr>
+                        <tr>
+                           <td><div class="b3">Yuvak Sing</div><button class="button3 "></button></td>
+                            <td><div class="b4">Nikhil</div><button class="button4"></button></td>
+                          
+                           
+                        </tr>
+                        
+                      </table>   
+                     <!--<script type="text/javascript">
+                      	 document.getElementById("btn1").addEventListner("click",function()
+                      	 {
+                      	 	var box1=document.getElementById()
+                      	 })
+                      </script>              
+                    
+               -->
+               <script>
+                       function myFunction() {
+                         document.getElementById("demo").innerHTML = Thank You;
+                       }
+                   </script>
+  <div>
+</body>
+</html>

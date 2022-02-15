@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="login.css">
+	
+
+	<title>login</title>
+</head>
+<body class="body">
+
+    <div class="container">
+    	<div class="login-box">
+  <div class="row">
+    <div class="col-sm login-left"> 	
+			<h2>Login Here</h2>
+			<form action="validation.php"method = "post">
+				<div class="form-group">
+					<label>Voter ID</label>
+					<input type="numbers" name="user"class="form-control "required placeholder="Enter Voter ID Number">
+				</div>
+				<div class="form-group">
+					<label>Password</label>
+					<input type="text" name="password"class="form-control "required placeholder="Enter the Password">
+				</div>
+				       <button type="user_submit" class="btn btn-primary">User Login</button>
+				        <button type="user_submit" class="btn btn-primary">Admin Login</button>
+				       
+			</form>
+    </div>
+    <div class="col-sm login-right">
+    
+			<h2>Register here</h2>
+			<form action="registration.php"method = "post">
+				<div class="form-group">
+					<label>Name</label>
+					<input type="adhar" name="user"class="form-control "required placeholder="Enter your Name as per Voter ID "required>
+				</div>
+				<div class="form-group">
+					<label>Voter ID</label>
+					<input type="numbers" name="user"class="form-control "required placeholder="Enter Voter ID Number"required>
+				</div>
+				<div class="form-group">
+					<label>Password</label>
+					<input type="text" name="password"class="form-control "required placeholder="Enter the Password">
+				</div>
+				<button type="register" class="btn btn-primary">Register</button>
+			</form>
+			<a href="file:///C:/Users/user/Desktop/aws_project/home_page.html"class="fas fa-book-reader ">-></a>
+
+    </div>
+    
+  </div>
+</div>
+</div>
+
+</body>
+</html>
